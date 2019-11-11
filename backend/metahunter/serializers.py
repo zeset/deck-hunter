@@ -8,11 +8,20 @@ class MetahunterSerializer(serializers.Serializer):
         fields = '__all__'
 
 class CardSerializer(serializers.Serializer):
+
     class Meta:
         model = Card
-        fields = '__all__'
+        fields = [
+	        'name', 
+	        'matches_played', 
+	        'matches_won', 
+	        'deckstring', 
+	        'deckOrigin1', 
+	        'deckOrigin2',
+        ]
 
 class DeckSerializer(serializers.Serializer):
+
     class Meta:
         model = Deck
         fields = '__all__'

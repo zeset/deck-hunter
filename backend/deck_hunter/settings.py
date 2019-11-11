@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'metahunter',
     'metagame',
     'django_extensions',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
