@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'metahunter',
     'metagame',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
